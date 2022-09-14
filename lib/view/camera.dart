@@ -1,9 +1,10 @@
 import 'dart:io';
 
 import 'package:camera/camera.dart';
+import 'package:camera_bloc/view/camera_interface.dart';
 import 'package:flutter/material.dart';
-import 'package:photoreport_mobile/plugins/camera/view/camera_interface.dart';
-import 'package:photoreport_mobile/plugins/camera/view/preview_cart.dart';
+
+import 'preview_cart.dart';
 
 class CameraItem extends StatefulWidget {
   final CameraController controller;

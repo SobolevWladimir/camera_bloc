@@ -1,5 +1,5 @@
+import 'package:camera_bloc/models/capture_modes.dart';
 import 'package:flutter/material.dart';
-import 'package:photoreport_mobile/plugins/camera/models/capture_modes.dart';
 
 import 'button_bar.dart';
 

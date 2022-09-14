@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:camera_bloc/view/camera.dart';
 import 'package:flutter/material.dart';
 import 'bloc/cameras/bloc.dart';
 import 'language.dart';

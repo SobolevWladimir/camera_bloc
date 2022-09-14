@@ -1,7 +1,7 @@
 import 'package:camera/camera.dart';
+import 'package:camera_bloc/bloc/cameras/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:photoreport_mobile/plugins/camera/bloc/cameras/bloc.dart';
 
 import '../models/capture_modes.dart';
 import 'button.dart';
