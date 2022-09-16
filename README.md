@@ -1,7 +1,7 @@
 # Camera Bloc 
 
 
-| Landscape                             | Portrait                              | 
+| Portrait                            |   Landscape                            | 
 | ------------------------------------- |:-------------------------------------:| 
 | ![example](doc/images/vertical.jpg)   | ![example](doc/images/horizontal.jpg) | 
 
