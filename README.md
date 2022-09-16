@@ -1,39 +1,69 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Camera_Camera 2.0
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+![example](doc/images/horizontal.jpg)
+![example](doc/images/vertical.jpg)
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# Guide for instalation
 
-## Features
+## Android
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+You need add in **app/build.gradle**
 
 ```dart
-const like = 'sample';
+minSdkVersion 21
 ```
 
-## Additional information
+## IOS
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+You need add in **info.plist**
+
+```dart
+  	<key>NSCameraUsageDescription</key>
+    <string>Can I use the camera please?</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Can I use the mic please?</string>
+```
+
+## Flutter
+
+Add package in pubspec.yaml
+
+```yaml
+camera_bloc: current_version
+```
+
+## How to use
+
+Camera_Bloc is widget, you can use anywhere
+
+Example 01
+
+```dart
+return Scaffold(
+      body: CameraScreen(
+        onTakePhoto: (file) => print(file);
+      )
+);
+```
+
+
+## Roadmap 
+
+| Feature               | Progress |
+| :-------------------- | :------: |
+| Zoom                  |          |
+| Flash                 |    ✅    |
+| CameraSide select     |    ✅    |
+| Add Exposure controll |          |
+| Add Easy Mode Video   |          |
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
