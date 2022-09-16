@@ -1,8 +1,16 @@
 # Camera_Camera 2.0
 
 
+<table>
+  <tr>
+    <td>
 ![example](doc/images/horizontal.jpg)
+    </td>
+    <td>
 ![example](doc/images/vertical.jpg)
+    </td>
+  </tr>
+</table>
 
 # Guide for instalation
 
