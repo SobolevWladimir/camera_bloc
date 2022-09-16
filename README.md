@@ -1,4 +1,4 @@
-# Camera_Camera 2.0
+# Camera Bloc 
 
 
 <table>
@@ -11,6 +11,9 @@
     </td>
   </tr>
 </table>
+| Landscape                             | Portrait                              | 
+| ------------------------------------- |:-------------------------------------:| 
+| ![example](doc/images/vertical.jpg)   | ![example](doc/images/horizontal.jpg) | 
 
 # Guide for instalation
 
