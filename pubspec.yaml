@@ -1,7 +1,7 @@
 name: camera_bloc
 description:  Camera Interface.
 version: 0.0.1
-homepage:
+homepage: https://github.com/SobolevWladimir/camera_bloc
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
