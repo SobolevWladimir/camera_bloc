@@ -1,5 +1,5 @@
 # Camera Bloc 
-
+Interface for camera 
 
 | Portrait                            |   Landscape                            | 
 | ------------------------------------- |:-------------------------------------:| 
